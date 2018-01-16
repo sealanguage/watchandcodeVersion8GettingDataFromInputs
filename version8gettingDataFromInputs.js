@@ -115,11 +115,6 @@ var handlers = {
         todoList.deleteTodo(deleteTodoPositionInput.valueAsNumber);
         deleteTodoPositionInput.value = "";
     },
-    // toggleCompleted: function() {
-    //     var toggleCompletedPositionInput = document.getElementById("toggleCompletedPositionInput");
-    //     todoList.toggleCompleted(toggleCompletedPositionInput.valueAsNumber);
-    //     toggleCompletedPositionInput.value = "";
-    // },
     toggleCompleted: function() {
         var toggleCompletedPositionInput = document.getElementById("toggleCompletedPositionInput");
         todoList.toggleCompleted(toggleCompletedPositionInput.valueAsNumber);
